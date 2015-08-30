@@ -1,3 +1,5 @@
+**Note: After writing this package, I found [MitchellH's *mapstructure*](https://github.com/mitchellh/mapstructure). The *mapstructure.WeakDecode* func covers exactly what I need, so I'm using - and would generally recommend using - *mapstructure* and just leaving this package here for posterity.**
+
 # Vague
 
 Deserialising JSON to structs when the JSON types are a little vague and loose...
